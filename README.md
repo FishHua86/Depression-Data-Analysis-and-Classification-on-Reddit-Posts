@@ -42,7 +42,7 @@ depression_data_analysis/
 1. Clone this repository:
 
    ```
-   git clone <your-repo-url>
+   git clone https://github.com/FishHua86/Depression-Data-Analysis-and-Classification-on-Reddit-Posts.git
    ```
 
 2. Install required packages:
