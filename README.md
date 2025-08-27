@@ -39,19 +39,52 @@ depression_data_analysis/
 
 ## How to Run
 
-1. Clone this repository:
+1. **Install Python**
+   Make sure Python (version 3.10 or higher) is installed on your computer. You can download it from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
-   ```
+2. **Clone this repository**  
+   
+   Open a terminal or command prompt, then run:
+   
+   ```bash
    git clone https://github.com/FishHua86/Depression-Data-Analysis-and-Classification-on-Reddit-Posts.git
-   ```
-
-2. Install required packages:
+   cd Depression-Data-Analysis-and-Classification-on-Reddit-Posts
+   
+1. **Install required packages**
+    Install the packages needed for this project:
 
    ```
    pip install -r requirements.txt
    ```
 
-3. Open and run the notebooks in `notebooks/` to explore the analysis.
+2. **Install Jupyter Notebook or JupyterLab**
+    To open and run the notebooks:
+
+   ```
+   pip install notebook
+   # or
+   pip install jupyterlab
+   ```
+
+3. **Open and run the notebooks**
+    Launch Jupyter Notebook:
+
+   ```
+   jupyter notebook
+   ```
+
+   or JupyterLab:
+
+   ```
+   jupyter lab
+   ```
+
+   Then navigate to the `notebooks/` folder and open `1_main_analysis.ipynb` to explore the analysis.
+
+4. **View LDA interactive visualizations**
+    After running the LDA cells, open the generated HTML files in the `notebooks/` folder (e.g., `lda_vis.html`) using your web browser to explore interactive topic visualizations.
+
+
 
 ## Notes
 
